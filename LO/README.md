@@ -15,7 +15,7 @@ Laraoct结合我们的实际应用场景，在October CMS的基础上做了大�
   * [Laraoct特色](./LO-02-05-Laraoct-Feature.md)
 * [Laraoct插件简介](./LO-03-Laraoct-Plugins.md)
   * [原生插件](./LO-03-01-OCT-Plugins.md)
-    * Builder
+    * [Builder](./LO-03-01-01-Builder.md)
     * User
     * Pages
   * [Laraoct基础插件](./LO-03-02-Base-Plugins.md)
@@ -29,11 +29,10 @@ Laraoct结合我们的实际应用场景，在October CMS的基础上做了大�
 * [快速开发指南](./LO-04-Quick-Develop-Guide.md)
     * [插件快速开发指南](./LO-04-01-Quick-Plugin-Develop-Guide.md)
     * [轻量级前端快速开发指南](./LO-04-02-Quick-API-Frontend-Develop-Guide.md)
-* 详细开发指南
-  * 插件开发指南
+* [详细开发指南](./LO-05-Develop-Detail.md)
+  * [插件开发指南](./LO-05-01-Plugin-Develop-Guide.md)
     * 插件注册
     * 插件版本管理
-    * 组件
     * 配置
     * 本地化I18n
     * 扩展插件
