@@ -34,32 +34,28 @@ README.md 项目说明文档
 * `php`命令能正常使用；
 * `composer`命令能够正常使用；
 * 使用浏览器，打开`http://localhost`访问应用；
-* 数据库访问地址为`localhost`，端口号为`3306`，账号`test`，密码`test`，数据库名称为`laraoct`。
+* 数据库访问地址为`localhost`，端口号为`3306`，账号`lo_user`，密码`password`，数据库名称为`lo_db`。
 
 具体安装步骤如下：
 
-*  配置数据库
+* 将src/env-example文件复制一份副本出来，并将其重命名为.env
+  ```bash
+  cp env-example .env
+  ```
 
-  * 复制数据库配置文件。将`src/config/database.sample.php`文件，复制为`src/config/database.php`。
+* 配置数据库
 
-  * 配置内容如下：
+  * 在.env中修改数据库相关配置，配置内容如下：
 
-    ```php
-    'connections' => [
-    	...
-    	'mysql' => [
-                'driver'    => 'mysql',
-                'host'      => 'localhost',
-                'port'      => '',
-                'database'  => 'laraoct',
-                'username'  => 'test',
-                'password'  => 'test',
-                'charset'   => 'utf8',
-                'collation' => 'utf8_unicode_ci',
-                'prefix'    => '',
-         ],
-    ]
-    ```
+	```php
+    # Database configurations. For more detail please refer to config/database.php
+	DB_CONNECTION=mysql
+	DB_HOST=localhost
+	DB_PORT=3306
+	DB_DATABASE=lo_db
+	DB_USERNAME=lo_user
+	DB_PASSWORD=password
+  ```
 
     ​
 
@@ -83,10 +79,10 @@ composer install
     //base64:v7izc56aZoHJys7W10rN6vWUE5fFEx5ghDv+6ckiQmM=
     ```
 
-  * 将所有生成的加密key，添加至`src/config/app.php`文件中，具体如下：
+  * 将所有生成的加密key，添加至`.env`文件中，具体如下：
 
     ```php
-    'key' => 'base64:v7izc56aZoHJys7W10rN6vWUE5fFEx5ghDv+6ckiQmM=',
+    APP_KEY="base64:v7izc56aZoHJys7W10rN6vWUE5fFEx5ghDv+6ckiQmM="
     ```
 
     ​
