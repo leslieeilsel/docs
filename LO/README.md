@@ -36,16 +36,16 @@ Laraoct结合我们的实际应用场景，在October CMS的基础上做了大�
     * 配置
     * 本地化I18n
     * 扩展插件
-  * 基于插件的中端开发详细指南
-    * Controllers-And-Ajax（控制器与异步请求）
-    * Views-And-Partials（视图和视图部件）
-    * Widgets（部件）
-    * Forms
-    * Lists
-    * Relations（关系）
-    * Sorting-Records（列表排序）
-    * Import-And-Exporting（导入导出）
-    * Users-And-Permissions（用户和权限）
+  * [基于插件的中端开发详细指南](./LO-05-02-Mid-End-Develop-Guide.md)
+    * [Controllers-And-Ajax（控制器与异步请求）](./LO-05-02-01-Controllers-And-Ajax.md)
+    * [Views-And-Partials（视图和视图部件）](./LO-05-02-02-Views-And-Partials.md)
+    * [Widgets（部件）](./LO-05-02-03-Widgets.md)
+    * [Forms](./LO-05-02-04-Forms.md)
+    * [Lists](./LO-05-02-05-Lists.md)
+    * [Relations（关系）](./LO-05-02-06-Relations.md)
+    * [Sorting-Records（列表排序）](./LO-05-02-07-Sorting-Records.md)
+    * [Import-And-Exporting（导入导出）](./LO-05-02-08-Import-And-Exporting.md)
+    * [Users-And-Permissions（用户和权限）](./LO-05-02-09-Users-And-Permissions.md)
 
 ## 文档说明
 
